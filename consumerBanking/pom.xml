@@ -13,6 +13,18 @@
       <artifactId>junit</artifactId>
       <version>3.8.1</version>
       <scope>test</scope>
-    </dependency>
-  </dependencies>
+    </dependency>    
+  </dependencies>  
+    <distributionManagement>
+  	<repository>
+  		<id>prod</id>
+  		<url>http://ec2-52-38-175-5.us-west-2.compute.amazonaws.com:8081/repository/maven-snapshots/</url>
+  		<name>myprod</name>
+
+
+  	</repository>
+  	
+
+  </distributionManagement>
+  
 </project>
